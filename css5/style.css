@@ -1,0 +1,21 @@
+
+#Titulo{
+    color: cadetblue;
+}
+
+#Principal{
+    color: red;
+}
+
+.texto-Verde{
+    color: green;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.texto-laranja{
+    color: orange;
+}
+/* os que usam class começam com .   e o ID é so com # */
