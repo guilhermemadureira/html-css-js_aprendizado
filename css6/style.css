@@ -1,0 +1,35 @@
+body{
+}
+p{
+/*     background:  url(../css6/img/backgorund.png) center/cover no-repeat;
+ */
+}
+#Titulo{
+    color: rgb(0, 255, 0);
+}
+
+#Principal{
+    color: red;
+}
+
+.texto-Verde{
+    color: green;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.texto-laranja{
+    color: orange;
+}
+.subDiv{
+    background-color: yellow;
+}
+/* os que usam class começam com .   e o ID é so com # */
+#paragrafo{
+/*     background: url(../css6/img/backgorund.png) center/cover no-repeat;
+
+ */
+background:red ;
+}
