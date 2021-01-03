@@ -1,0 +1,82 @@
+body{
+}
+p{
+/*     background:  url(../css6/img/backgorund.png) center/cover no-repeat;
+ */
+}
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+#mm{
+    background-color: red;
+    width: 5mm;
+    height: 5mm;
+}
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+#px{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+#pc{
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+}
+#Titulo{
+    color: rgb(0, 255, 0);
+}
+
+#Principal{
+    color: red;
+}
+
+.texto-Verde{
+    color: green;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.texto-laranja{
+    color: orange;
+}
+.subDiv{
+    background-color: yellow;
+}
+/* os que usam class começam com .   e o ID é so com # */
+#paragrafo{
+/*     background: url(../css6/img/backgorund.png) center/cover no-repeat;
+
+ */
+background:red ;
+}
+.container{
+    height: 100px;
+    width: 200px;/* vmax ele é o contrario do vmin ele se baseia pelo maior valor de altura ou largura da tela */
+    /* width: 50vmin; ele se baseia no menor valor de altura e largura sendo que quando um fica maior que 
+    o outro ele automaticamente troca pelo valor menor */
+    font-size: 15px;/* se não tiver nada o tamanho padrão da fonte é 16 px  */
+/*     width: 50vh; vh é a mesma coisa que o vw só que ele se baseia na altura */
+/*  width: 50vw; 1 vw equivale a 1% da tela em largura */
+     background: red; 
+}
+.inside{
+    /* font-size: 1rem; ele usa como referencia o tamanho da fonte da tag html para modificar o size*/
+    height: 80%/* ele sempre vai ser referente a altura ou largura da propiedade pai*/;
+    width: 50%;/* a porcetagem se baseia no tamanho do container pai ou seja 80% de 80%*/ 
+    /* e  EM é relativo ao tamanho da fonte */
+    background: blue;
+}

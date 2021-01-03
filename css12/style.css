@@ -1,0 +1,24 @@
+p{
+/*     background:  url(../css6/img/backgorund.png) center/cover no-repeat;
+ */
+}
+#titulo{
+    color: #70e5ae;
+}
+.texto-verde{
+    color: green;
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color: white;
+/*     margin: 10px; */  
+    padding-top: 10px; /* o padding fas com que distancie essa propiedade 
+    se distancie das outras de dentro para fora  ao contrario 
+    da margin que distancia de fora para dentro e ele não aumenta o background se tiver.*/
+}
