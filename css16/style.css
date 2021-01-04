@@ -1,0 +1,10 @@
+p{
+
+    font-family: Helvetica, Arial/* se tiver mais de uma palavra tem que add aspas
+     */,sans-serif; 
+    font-style: normal/* normal sempre sera padrão se não mudar nada */;
+    font-size: 1em;
+    font-weight: 600;/* dependendo da familia da sua fonte ele vai modificar gradualmente o texto */
+    font-variant: small-caps;/* dependendo da fonte ele pode mudar bastante o texto */
+
+}

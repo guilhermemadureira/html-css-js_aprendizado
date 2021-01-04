@@ -1,0 +1,43 @@
+.links{
+
+    text-decoration: none;
+    color: red;
+    cursor: pointer;  /* modifica o cursor de um link ou botão */
+/*     background: rgb(46, 141, 165);*/ 
+   padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px; /* ele arredonda o canto do botão */
+    border: 2px solid #bc2036;
+
+}
+
+.links:hover{
+
+    border: 2px solid orange;
+    color: tomato;
+
+}
+
+.links:active{
+/* quando passar o mouse emcima ele modifica a cor */
+background: #bc2035;
+color: white;
+    
+}
+
+.links:hover:visited{
+    border: orange;
+}
+
+.links:visited{
+    border-color: yellowgreen;
+    color: violet;
+}
+
+/* .links:visited{
+
+color: red;
+border: 2px solid black;
+
+} */

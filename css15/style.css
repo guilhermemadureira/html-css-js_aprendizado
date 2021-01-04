@@ -1,0 +1,15 @@
+p{
+    color: blue;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 35px;
+    letter-spacing: 1.5px; /* dia uma letra da outra */
+    line-height: 3; /* distancia uma linha da outra */
+    word-spacing: 5px; /* distancia palavras  */
+    text-shadow: 2px 2px 10px black; /* ele sombreia a palavra  */
+/*     text-decoration: line-through underline overline;*/
+}
+
+/* a{
+    text-decoration: none;
+} */

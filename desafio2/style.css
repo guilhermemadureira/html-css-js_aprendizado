@@ -1,0 +1,44 @@
+body{
+    
+}
+
+
+h1{
+
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+body
+{
+    width: 800px;
+    height: 200px;
+    background: url("../desafio2/img/backgorund.png") no-repeat ;
+    background-size: 600px;
+  
+}
+
+ul{
+    
+}
+
+#youtube{list-style-image: url("../desafio2/img/Youtube.png");}
+#twiter{list-style-image: url("../desafio2/img/Twitter.png");}
+#instagram{list-style-image: url("../desafio2/img/Insta.png");}
+
+.links{
+
+    text-align: justify;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin: 2px;
+    font-size: 25px;
+
+}
+
+.links:visited{
+
+    color: black;
+}
