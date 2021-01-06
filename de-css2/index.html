@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>minha pagina</title>
+
+    <style>
+
+        body{
+            font-size: 1.2rem;
+        }
+
+        p{
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <!-- propiedade display é responsavel por dizer como cada elemento sera mostrado na tela -->
+    <div style="background-color: blue;">
+        <!-- quando é display block ele é pode ser modificado a altura e largura do elemento -->
+        <div> esta é uma DIV normal</div>
+        <div>E aqui a histroia <div style="background-color: red; width: 500px;height: 50px;">de dentro</div>
+        continua</div>
+
+    </div>
+
+    <div>
+
+        <p style="margin: 0;">esté é um parágrafo normal</p>
+        <p style="margin: 0;"> E aqui a história continua</p>
+
+    </div>
+
+    <p><!-- quando é display in-line não é possivel modificar a altura e largura do elemento -->
+                <!-- display in-line-block permite modifical a largura e altura -->
+        aqui eu tenho o inico de um parágrafo <span style="background-color: orange;width: 500px; display: inline-block;"> um SPAN no meio</span> 
+        eo fim do parágrafo.
+
+    </p>
+
+    <p style="background-color: blue;">
+
+        <!-- a div por ser do tipo block não pode ser usado dentro de um paragrafo, nunca pode ter uma
+        div dentro de um paragrafo e nem um paragrafo dentro de outro-->
+        
+            aqui eu tenho o inico de um parágrafo <div style="background-color: red;"> uma div no meio</div> E o fim do parágrafo.
+        
+
+    </p>
+
+    <p>
+        aqui eu tenho o inicio de um páragrafo <img src="./img/logo-treinaweb-blog.png" 
+        alt="é um logo-treinaweb-blog" style="width: 400px;visibility: hidden;"> e o fim do parágrafo
+    </p>
+
+
+</body>
+</html>

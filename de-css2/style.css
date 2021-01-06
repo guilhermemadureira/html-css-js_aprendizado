@@ -1,0 +1,52 @@
+ul{
+
+/*     list-style-type: square,disc,circle;*/
+    list-style-image: url("") ;/* muda a imagem do inicio da lista */
+    list-style-position: inside; /* muda a posição que ele fica  */
+    margin: 0;
+    padding: 10px;
+
+    background-color: lemonchiffon;
+
+}
+
+ol{
+
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+
+    background-color: lightcoral;
+/*     list-style-type: upper-roman,lower-roman,upper-alpha,lower-alpha;*/
+}
+
+li{
+
+    border: 1px solid;
+    background-color: lightslategray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+a:visited{
+
+    background: black;
+    color: red;
+    border: 3px ;
+
+}
+
+a:hover{
+
+    background-color: orangered;
+    color: powderblue;
+
+}
